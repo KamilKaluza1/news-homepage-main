@@ -158,6 +158,11 @@ button:hover {
   justify-content: center;
   padding: 40px;
 }
+
+#hamburger{
+    height: 0;
+    width: 0;
+}
 @media screen and (max-width: 1300px ) {
 
       html {
@@ -166,6 +171,9 @@ button:hover {
   }
 
 @media screen and (max-width: 900px ) {
+    li{
+        font-size: 0px;
+    }
     #container {
         display: grid;
         grid-template-columns: 1fr;
@@ -186,5 +194,10 @@ button:hover {
       html {
         margin: 50px 50px;
       }
+      #hamburger{
+        height: 20px;
+        width: 35px;
+        
+    }
   }
   
