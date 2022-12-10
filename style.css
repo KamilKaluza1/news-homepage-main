@@ -33,14 +33,14 @@ nav {
   margin-bottom: 40px;
 }
 
-#nav-items ul {
+.nav-items ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-#nav-items ul li {
+.nav-items ul li {
   margin-left: 50px;
 }
 
@@ -164,6 +164,35 @@ button:hover {
     height: 0;
     width: 0;
 }
+
+.slider{
+  background-color: blueviolet;
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top:0;
+  right:0;
+
+}
+
+.slider ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.slider ul  li{
+  margin: 20px;
+}
+
+.slider img{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
 @media screen and (max-width: 1300px ) {
 
       html {
@@ -172,9 +201,10 @@ button:hover {
   }
 
 @media screen and (max-width: 900px ) {
-    li{
+    .nav-items li{
         font-size: 0px;
     }
+
     #container {
         display: grid;
         grid-template-columns: 1fr;
@@ -195,6 +225,7 @@ button:hover {
       html {
         margin: 50px 50px;
       }
+
       #hamburger{
         height: 20px;
         width: 35px;
@@ -203,13 +234,12 @@ button:hover {
   }
   
   @media screen and (max-width: 500px ) {
-    li{
+
+    .nav-items ul li {
+        margin-left: 1px;
         font-size: 0px;
         margin-left: 0;
         width: 1px;
-    }
-    #nav-items ul li {
-        margin-left: 1px;
       }
     #container {
         display: grid;
