@@ -1,6 +1,7 @@
-const hamburger = document.querySelector(".hamburger")
+const hamburger = document.querySelector(".hamburger-container")
 
 hamburger.addEventListener('click', () => {
+
     const item = document.querySelector(".nav-items");
     item.className = item.className = "slider";
 
@@ -20,6 +21,7 @@ hamburger.addEventListener('click', () => {
 const closeBtn = document.querySelector(".close-container");
 
 closeBtn.addEventListener('click', () => {
+
     
     const item = document.querySelector(".slider");
     item.className = item.className = "nav-items";
