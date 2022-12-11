@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://kamilkaluza-news-page.onrender.com)
+- Live Site URL: [Live site URL here](https://kamilkaluza-news-page.onrender.com)
 
 
 ### Built with
@@ -48,13 +48,13 @@ Users should be able to:
 ### What I learned
 
 I can only use existing containers to manipulate DOM via JS.
-When I try get element that i create earlier via JS console return 'none'
+When I try get element that I create earlier via JS console return 'none'
 
 
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) - This helped me set obscured site when i press hamburger menu 
+- [As always MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) - This helped me set obscured site when I press hamburger menu 
 
 
 
