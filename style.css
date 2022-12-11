@@ -16,7 +16,7 @@
 }
 * {
   /* border: 0.1px solid rgb(226, 223, 223); */
-  transition: 0.2s;
+  /* transition: 0.2s; */
   font-family: "Inter", sans-serif;
 }
 
@@ -110,13 +110,14 @@ color: var(--color-grayish-blue);
 }
 
 button {
-  background-color: var(--color-of-white);
+  background-color: var(--color-soft-orange);
   font-size: 15px;
   /* margin: 0 25%; */
-  color: var(--color-very-dark-blue);
+  color: var(--color-of-white);
   padding: 10px 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  border: none;
   
 }
 
