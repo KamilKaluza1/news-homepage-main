@@ -160,7 +160,7 @@ button:hover {
   padding: 40px;
 }
 
-#hamburger{
+.hamburger{
     height: 0;
     width: 0;
 }
@@ -226,7 +226,7 @@ button:hover {
         margin: 50px 50px;
       }
 
-      #hamburger{
+      .hamburger{
         height: 20px;
         width: 35px;
         
@@ -261,7 +261,7 @@ button:hover {
       html {
         margin: 10px;
       }
-      #hamburger{
+    .hamburger{
         height: 20px;
         width: 35px;
         
