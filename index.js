@@ -16,6 +16,9 @@ hamburger.addEventListener('click', () => {
 
     d.appendChild(closeBtn)
 
+    const obs = document.querySelector(".off-obscuring");
+    obs.className = "obscuring"
+
 });
 
 const closeBtn = document.querySelector(".close-container");
@@ -35,5 +38,8 @@ closeBtn.addEventListener('click', () => {
     hamburger.src ="./assets/images/icon-menu.svg";
     hamburger.className= "hamburger";
     hamburgerContainer.appendChild(hamburger)
+
+    const obs = document.querySelector(".obscuring");
+    obs.className = "off-obscuring"
 
 })
