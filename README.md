@@ -55,6 +55,7 @@ When I try get element that I create earlier via JS console return 'none'
 ### Useful resources
 
 - [As always MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) - This helped me set obscured site when I press hamburger menu 
+- [YT Video](https://www.youtube.com/watch?v=rGAbT8ykGB0) - This helped me get idea how to do slider, but actually I done this my way. 
 
 
 
